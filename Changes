@@ -1,5 +1,8 @@
 Revision history for Perl extension Lingua::Syllable.
 
+0.02  Thu Jun  7 10:10:00 2001
+	- removed a 'warn' statement....
+
 0.01  Thu Jun  7 10:02:43 2001
 	- original version; created by h2xs 1.20 with options
 		-Xcfn Lingua::Syllable

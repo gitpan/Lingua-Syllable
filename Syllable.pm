@@ -1,5 +1,5 @@
 package Lingua::Syllable;
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw();
@@ -50,7 +50,6 @@ sub syllable_count { my ($word) = (shift);
 	} else {
 		$_ = Lingua::EN::Syllable::syllable($word)
 	}
-	warn "$word \t$_\n";;
 	return $_;
 }
 

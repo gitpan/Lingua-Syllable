@@ -1,5 +1,5 @@
 package Lingua::Syllable;
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw();
@@ -23,7 +23,7 @@ Pulls in two modules in an attempt to find the number of syllables in an (Englis
 
 =cut
 
-use Lingua::EN::syllable;
+use Lingua::EN::Syllable;
 use Lingua::Rhyme;
 
 =head1 FUNCTION
